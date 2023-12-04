@@ -3,7 +3,7 @@
 
 ## Getting Started
 
-This guide provides step-by-step instructions on how to set up alerts and contact points Siglens.
+This guide provides step-by-step instructions on how to set up alerts and contact points.
 
 ### 📌 Accessing Alerts and Contact Points
 
@@ -26,7 +26,7 @@ This guide provides step-by-step instructions on how to set up alerts and contac
 
       ![alert-3](/static/img/alert-3.png)
 
-   - Write a message using the template vars.
+   - Write a message to send when the alert is triggered. You can customize the message using prefdefined template variables.
 
       ![alert-3.1](/static/img/alert-3.1.png)
 
@@ -36,7 +36,7 @@ This guide provides step-by-step instructions on how to set up alerts and contac
       ![alert-4](/static/img/alert-4.png)
 
 4. **Save and Verify:**
-   - Save your alert rule. The alert status should now be set to 'firing'.
+   - Save your alert rule. If the condition for alert rule is satisfied, the alert status will be set to 'firing'.
 
       ![alert-5](/static/img/alert-5.png)
 
@@ -75,7 +75,7 @@ This guide provides step-by-step instructions on how to set up alerts and contac
 
 
 3. **Managing Contact Points:**
-   - To delete a contact point, ensure it is not linked to any active alert rules.You can not delete contact point associated with any of the alert rules
+   - To delete a contact point, ensure it is not linked to any active alert rules. You can not delete contact point associated with any of the alert rules.
 
       ![alert-14](/static/img/alert-14.png)
 
