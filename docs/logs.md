@@ -23,7 +23,18 @@ sidebar_position: 9
      
       ![Query Type](/static/img/query-type.png)
 
-      #### ⭐ SQL Query Examples ⭐
+3. **Select Index:**
+   - Choose an index from the index dropdown.
+
+      ![Index](/static/img/index-query.png)
+
+4. **Set Time Range:**
+   - Select the time range for the query.
+
+      ![Time Range](/static/img/time-query.png)
+
+
+   ### ⭐ SQL Query Examples ⭐
       ```
       SELECT first_name AS firstnames, country AS origincountry FROM `ind-0`
       ```
@@ -45,7 +56,7 @@ sidebar_position: 9
       ```
       ![sql-5](/static/img/sql-5.png)
 
-      #### ⭐ Splunk QL Query Examples ⭐
+   ### ⭐ Splunk QL Query Examples ⭐
       ```
       city=Boston | stats count AS Count BY weekday | where Count / 2 > 6 OR weekday = "Saturday"
       ```
@@ -76,7 +87,7 @@ sidebar_position: 9
 
       ![spl-5](/static/img/spl-5.png)
 
-      #### ⭐ Log QL Query Examples ⭐
+   ### ⭐ Log QL Query Examples ⭐
       ```
       {gender="female",city="Fresno"} != "batch-212"
       ```
@@ -106,15 +117,6 @@ sidebar_position: 9
       ![logql-5](/static/img/logql-5.png)
 
          
-3. **Select Index:**
-   - Choose an index from the index dropdown.
-
-      ![Index](/static/img/index-query.png)
-
-4. **Set Time Range:**
-   - Select the time range for the query.
-
-      ![Time Range](/static/img/time-query.png)
 
 5. **Use Query Builder:**
    - Select from the search dropdown
